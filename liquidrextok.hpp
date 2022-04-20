@@ -11,6 +11,11 @@
 using namespace std;
 using namespace eosio;
 
+#define EOSIO_CONTRACT ("eosio"_n)
+#define EOSIO_REX_CONTRACT ("eosio.rex"_n)
+#define EOSIO_TOKEN_CONTRACT ("eosio.token"_n)
+#define EOSIO_CORE_SYMBOL (eosio::symbol("TLOS", 4))
+
 CONTRACT liquidrextok : public contract
 {
 public:
